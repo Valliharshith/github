@@ -1,0 +1,744 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url("../Downloads/windows.jpg");
+    color: #046a99;
+  }
+.header{
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+}
+ul{
+    display:flex;
+    list-style-type:none;
+    display: flex;
+    gap: 12px;
+    flex-wrap:wrap;
+}
+
+.icon-area {
+  color: aqua;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon {
+    width: 50px; /* Sets the width of the image */
+    height: 35px; /* Sets the height of the image */
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+}
+
+.icon-name{
+  color: aqua;
+    font-weight: 15px;
+}
+  
+.menu-area{
+    margin-right: 10px;
+
+}
+li{
+  color: #118bf6;
+    padding:5px;
+    border-radius:8px;
+    transition: transform 0.5s, background-color o.5s;
+}
+li:hover{
+    transform:scale(1.0);
+    background-color:rgba(231, 84, 11, 0.762) ;
+    border-bottom:2px solid rgb(24, 26, 30);
+    cursor: pointer; 
+}
+
+.main-content {
+    background-image: url("../Downloads/bro\ dan.jpg"); /* Replace with the path to your background image */
+    height: 250px; /* Increased height for better layout */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Ensures the image is centered */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color:rgba(14, 213, 224, 0.967); /* Text color for better visibility over the background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 10px; /* Adds rounded corners */
+    margin: 20px auto; /* Centers the section horizontally */
+    width: 80%; /* Sets a relative width */
+}
+.main-content .main-heading {
+    font-size: 2.5em; /* Larger and prominent heading */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 1.2em; /* Slightly larger font size for readability */
+    margin: 0;
+    padding: 0 10px; /* Padding for text alignment inside the container */
+}
+
+
+  h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0bf781;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #005f73;
+    color: rgb(99, 2, 2);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #0a9396;
+  }
+  
+  header .main-heading {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+
+  /* Frame web section styling*/
+  /* Styling for the Frame Section */
+.web-frame {
+    background-color:rgb(132, 0, 255); /* Light blue background for a soft touch */
+    padding: 20px; /* Adds space inside the section for better readability */
+    margin: 20px auto; /* Centers the section and adds vertical spacing */
+    border: 2px solid #005f73; /* Adds a blue border for definition */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 90%; /* Makes the section responsive and centered */
+    max-width: 800px; /* Limits the maximum width for larger screens */
+  }
+  
+  /* Styling for the Section Heading */
+  .web-frame{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:10px;
+    background-image:url("../Downloads/ani\ moon.jpg") ;
+  }
+  .web-frame h2 {
+    font-size: 2em; /* Large, prominent heading */
+    color:rgba(10, 213, 224, 0.863); /* Deep blue for emphasis */
+    text-align: center; /* Centers the heading */
+    margin-bottom: 15px; /* Adds space below the heading */
+    text-transform: uppercase; /* Makes text stand out */
+  }
+  
+  /* Styling for Paragraphs */
+  .web-frame p {
+    font-size: 1.2em; /* Slightly larger font size for readability */
+    color:rgba(51, 109, 153, 0.859); /* Neutral dark color for the text */
+    line-height: 1.6; /* Adds spacing between lines for clarity */
+    margin-bottom: 15px; /* Space between paragraphs */
+    text-align: justify; /* Aligns text for a clean, professional appearance */
+  }
+  
+  /* Styling for the List */
+  .web-frame ul {
+    list-style-type: disc; /* Adds bullet points to the list */
+    padding-left: 20px; /* Indents the list items slightly */
+    margin-top: 10px; /* Adds space above the list */
+  }
+  
+  .web-frame ul li {
+    font-size: 1.1em; /* Increases the list item font size */
+    color: #005f73; /* Matches the heading color for consistency */
+    margin-bottom: 8px; /* Adds space between each list item */
+  }
+  
+  
+  /* Section styling */
+  section {
+    background:navajowhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #005f73;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  section ul li {
+    margin: 5px 0;
+  }
+
+/* Card Section */
+.other-websites {
+  background-color: transparent;
+}
+
+/* Section Title */
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Card Container */
+.other-websites .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px; /* Increased gap for better separation */
+  padding: 50px;
+  margin: 50px auto;
+  background-color: blue; /* Apply background color */
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 1300px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out 0.5s forwards;
+}
+
+/* Card Styling */
+.card, .card1, .card2, .card3, .image_card1, .image_card2, .image_card3 {
+  background: url("../Downloads/background.jpg");
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  text-align: center;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInScale 1s ease-out 0.8s forwards;
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Image */
+.card img {
+  width: 90%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 3px solid black;
+  border-radius: 15px;
+  margin-top: 15px;
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Image Hover Effect */
+.card:hover img {
+  transform: scale(1.1);
+}
+
+/* Card Content */
+.card-content {
+  padding: 35px;
+  font-size: 18px;
+  color: #4a27b5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out 1s forwards;
+}
+
+.card-content h3 {
+  margin: 0 0 20px;
+  color: #005f73;
+}
+
+.card-content p {
+  margin-bottom: 15px;
+}
+
+/* Button Styling */
+.card-content button {
+  padding: 12px 18px;
+  border: none;
+  background-color: #005f73;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  width: 85%;
+  align-self: center;
+  margin-top: 20px;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 1.2s forwards;
+}
+
+/* Button Hover Bounce Effect */
+.card-content button:hover {
+  background-color: #0a9396;
+  transform: scale(1.1);
+}
+
+/* Button Click Shrink Effect */
+.card-content button:active {
+  transform: scale(0.95);
+}
+
+/* Responsive Grid Adjustments */
+@media (max-width: 1200px) {
+  .other-websites .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/* About Web Section Styling */
+.about-web {
+    padding: 20px;
+    margin:32px auto;
+    background: url("../Downloads/rain.jpg");
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  /*heading and paragraph animation*/
+  
+  .about-web h3 {
+    font-size: 2em;
+    color: #0e91ab;
+    margin-bottom: 10px;
+    opacity: 0;
+  transform: translateY(10px);
+  animation: slideUp 1s ease-in-out forwards 0.3s;
+
+  }
+  
+  .about-web p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #0aafa4e1;
+    opacity: 0;
+  transform: translateY(10px);
+  animation: slideUp 1s ease-in-out forwards 0.3s;
+
+  }
+  
+  /* Websites Section Styling */
+  .websites {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center aligns all cards */
+    text-align: center;
+    opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-in-out forwards 0.5s;
+
+  }
+  
+  .web-card {
+    background-color: white;
+    width: 200px; /* Consistent card width */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: transform 0.3s ease;
+    opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 1s ease-in-out forwards 0.7s;
+  }
+  
+  .web-card img {
+    width: 100%; /* Make image fill the card */
+    height: 150px; /* Consistent height for all images */
+    object-fit: cover; /* Maintains aspect ratio while cropping excess */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+/* Image Hover Effect */
+.web-card:hover img {
+  transform: scale(1.05);
+}
+  
+  .web-card button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%; /* Button spans the width of the card */
+    border: none;
+    border-radius: 5px;
+    background-color: #005f73;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: slideUp 2ms ease-in-out forwards 1.0s;
+  }
+  /*button hover efffect */
+  .web-card button:hover {
+    background-color: #0a9396;
+    transform: scale(1.05);
+  }
+  /*hover animation*/
+  .web-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .websites p {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #555;
+  }
+
+  div img {
+    width: 200px; /* Set a consistent width */
+    height: 150px; /* Set a consistent height */
+    object-fit: cover; /* Ensures images are cropped proportionally to fill the dimensions */
+    border: 1px solid #ddd; /* Add a border for a clean look */
+    border-radius: 5px; /* Optional: Rounds the corners */
+    margin-bottom: 10px; /* Space between the image and button */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+div img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+div button {
+    display: block; /* Ensures the button appears below the image */
+    width: 100%; /* Matches the width of the image */
+    padding: 10px; /* Add padding for a larger clickable area */
+    border: none; /* Removes default button border */
+    background-color: #005f73; /* Button color */
+    color: white; /* Button text color */
+    border-radius: 5px; /* Rounds button corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 1em; /* Sets a readable font size */
+}
+
+div button:hover {
+    background-color: #0a9396; /* Changes button color on hover */
+}
+/*keyframes*/
+@keyframes fadeIn {
+from{
+  opacity:0;
+}
+to{
+  opacity: 1;
+}
+}
+@keyframes slideup{
+  from{
+    opacity:0;
+    transform:translataeY(20px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+  /* Footer Styling */
+footer {
+  background-color: #005f73;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Footer Content Animation */
+footer .address, 
+footer .contact {
+  margin: 5px 0;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 1s ease-in-out forwards 0.5s;
+}
+
+/* Hover Animation */
+footer:hover {
+  background-color: #0a9396;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* about-us section */
+.about-us {
+  width: 90%;
+  background: url("../Downloads/dottin.jpg");
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  padding: 70px 40px;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; /* Start hidden */
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Container animation */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  min-height: 550px;
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideIn 1s ease-out 0.5s forwards;
+}
+
+/* Heading animation */
+.about-us h1 {
+  position: relative;
+  text-align: center;
+  margin-top: 0;
+  right: 50%;
+  color: cornflowerblue;
+  padding-bottom: 150px;
+  font-size: 3.9em;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeInUp 1s ease-out 0.8s forwards;
+}
+
+/* Image animation */
+.about-image {
+  width: 40%;
+  max-width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.about-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Content animation */
+.about-content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out 1s forwards;
+}
+
+/* Paragraph animation */
+.about-content p {
+  font-size: 2.1em;
+  color: #8f0ce0;
+  line-height: 1.6;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 1.2s forwards;
+}
+
+/* Button animation */
+.about-content button {
+  display: block;
+  width: 60%;
+  max-width: 300px;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #005f73;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  
+  /* Fade-in effect */
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInScale 1s ease-out 1.5s forwards;
+}
+
+/* Button hover bounce effect */
+.about-content button:hover {
+  background-color: #0a9396;
+  transform: scale(1.1);
+}
+
+/* Button click shrink effect */
+.about-content button:active {
+  transform: scale(0.95);
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    min-height: 700px;
+  }
+  .about-image {
+    width: 100%;
+    height: 350px;
+  }
+  .about-content {
+    width: 100%;
+  }
+}
+
+  /* Media queries for responsiveness */
+  @media (max-width:500px) {
+    .other-websites .card {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .card img {
+      margin: 0 auto 15px;
+    }
+}
